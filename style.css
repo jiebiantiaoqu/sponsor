@@ -60,7 +60,7 @@ a{
 	background-color: #fff;
 	border: 1px solid #ddd;
 	border-radius: 6px;
-	width: 150px;
+	width: 299px;
 	height: 28px;
 	float: left;
 	z-index: 1;
@@ -149,14 +149,11 @@ a{
 	top: -8px;
 }
 #github {
-	position: relative;
-	display: inline-block;
-	z-index: 1;
 	width: 24px;
 	height: 24px;
-	top: -12px;
-	left: -10px;
-	background: no-repeat center center url(/images/github.svg);
+	left: calc(50% + 135px);
+	top: calc(50% - 30px);
+	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
 	opacity: 0.3;
 	transform: rotatez(15deg );
